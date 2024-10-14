@@ -1,0 +1,16 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var n int
+
+	fmt.Print("Masukkan bilangan bulat positif: ")
+	fmt.Scan(&n)
+
+	sum := n * (n + 1) / 2
+
+    fmt.Println("Jumlah dari deret 1 hingga", n, "adalah", sum)
+}

@@ -10,7 +10,7 @@ func main() {
 	fmt.Print("Masukkan bilangan bulat positif: ")
 	fmt.Scan(&n)
 
-	sum := n * (n + 1) / 2
+	hasil := n * (n + 1) / 2
 
-    fmt.Println("Jumlah dari deret 1 hingga", n, "adalah", sum)
+    fmt.Println("Jumlah dari deret 1 hingga", n, "adalah", hasil)
 }

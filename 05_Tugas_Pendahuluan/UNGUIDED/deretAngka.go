@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	var n int
+	var n, hasil int
 
 	fmt.Print("Masukkan bilangan bulat positif: ")
 	fmt.Scan(&n)
 
-	hasil := n * (n + 1) / 2
+	hasil = n * (n + 1) / 2
 
     fmt.Println("Jumlah dari deret 1 hingga", n, "adalah", hasil)
 }
